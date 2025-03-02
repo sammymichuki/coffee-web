@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+   
+</head>
+<body>
+    <div class="sidebar">
+        <h2 style="margin-bottom: 20px; color: #f3e5ab;">Coffee Manager</h2>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">Orders</a>
+        <a href="#">Customers</a>
+        <a href="#">Analytics</a>
+        <a href="#">Inventory</a>
+        <a href="#">Settings</a>
+        <button class="logout-btn">Logout</button>
+    </div>
+    
+    <div class="main-content">
+        <div class="header">
+            <h1>Coffee Web App</h1>
+            <p>Welcome back!</p>
+        </div>
+        
+        <div class="dashboard-section">
+            <div class="stats-container">
+                <div class="stat-card">
+                    <div class="stat-number">127</div>
+                    <div class="stat-label">Orders Today</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">$1,254</div>
+                    <div class="stat-label">Today's Revenue</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">43</div>
+                    <div class="stat-label">New Customers</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">4.8</div>
+                    <div class="stat-label">Average Rating</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dashboard-section">
+            <h2 class="section-title">Popular Coffees</h2>
+            <div class="coffee-menu">
+                <div class="coffee-item">
+                    <div class="coffee-img">Espresso Image</div>
+                    <div class="coffee-details">
+                        <h3 class="coffee-name">Espresso</h3>
+                        <p>Strong, concentrated coffee served in small quantities.</p>
+                        <div class="coffee-price">$3.50</div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <div class="coffee-item">
+                    <div class="coffee-img">Cappuccino Image</div>
+                    <div class="coffee-details">
+                        <h3 class="coffee-name">Cappuccino</h3>
+                        <p>Equal parts of espresso, steamed milk, and milk foam.</p>
+                        <div class="coffee-price">$4.50</div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <div class="coffee-item">
+                    <div class="coffee-img">Latte Image</div>
+                    <div class="coffee-details">
+                        <h3 class="coffee-name">Latte</h3>
+                        <p>Espresso with steamed milk and a light layer of foam.</p>
+                        <div class="coffee-price">$4.00</div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+                <div class="coffee-item">
+                    <div class="coffee-img">Mocha Image</div>
+                    <div class="coffee-details">
+                        <h3 class="coffee-name">Mocha</h3>
+                        <p>Espresso with chocolate, steamed milk, and whipped cream.</p>
+                        <div class="coffee-price">$5.00</div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="dashboard-section">
+            <h2 class="section-title">Recent Orders</h2>
+            <table class="orders-table">
+                <thead>
+                    <tr>
+                        <th>Order ID</th>
+                        <th>Customer</th>
+                        <th>Items</th>
+                        <th>Total</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#1234</td>
+                        <td>John Doe</td>
+                        <td>2x Espresso, 1x Croissant</td>
+                        <td>$10.50</td>
+                        <td class="status-completed">Completed</td>
+                    </tr>
+                    <tr>
+                        <td>#1235</td>
+                        <td>Jane Smith</td>
+                        <td>1x Latte, 1x Blueberry Muffin</td>
+                        <td>$8.25</td>
+                        <td class="status-pending">Pending</td>
+                    </tr>
+                    <tr>
+                        <td>#1236</td>
+                        <td>Mike Johnson</td>
+                        <td>3x Cappuccino, 2x Chocolate Chip Cookies</td>
+                        <td>$18.50</td>
+                        <td class="status-completed">Completed</td>
+                    </tr>
+                    <tr>
+                        <td>#1237</td>
+                        <td>Sarah Williams</td>
+                        <td>1x Mocha, 1x Sandwich</td>
+                        <td>$12.00</td>
+                        <td class="status-pending">Pending</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <div class="special-offers">
+            <h2 class="offer-title">Special Offers</h2>
+            <div class="offer-list">
+                <div class="offer-item">
+                    <div class="offer-name">Morning Bundle</div>
+                    <p>Any coffee + pastry for only $6.99</p>
+                    <p>Available from 7AM to 10AM</p>
+                </div>
+                <div class="offer-item">
+                    <div class="offer-name">Loyalty Discount</div>
+                    <p>Buy 9 coffees, get the 10th free!</p>
+                    <p>Sign up for our loyalty program.</p>
+                </div>
+                <div class="offer-item">
+                    <div class="offer-name">Student Special</div>
+                    <p>15% off with valid student ID</p>
+                    <p>Available all day, every day.</p>
+                </div>
+                <div class="offer-item">
+                    <div class="offer-name">Happy Hour</div>
+                    <p>50% off all specialty coffees</p>
+                    <p>Weekdays from 3PM to 5PM</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
